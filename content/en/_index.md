@@ -11,18 +11,23 @@ linkTitle = "Goldydocs"
 <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
 	Download <i class="fa-brands fa-github ms-2"></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment - in the cloud!</p>
+
+Porridge temperature assessment - in the cloud!
+{.lead .mt-5}
+
 {{% blocks/link-down color="info" %}}
 {{% /blocks/cover %}}
 
 
+
 {{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge temperature, chair size, and bed softness metrics! You can even find out who's been eating <strong>your</strong> porridge.
-<br/>
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example to create your own real websites with <a href="https://docsy.dev">[Docsy]</a>)
+Goldydocs provides a single web UI providing visibility into porridge temperature, chair size, and bed softness metrics! You can even find out who's been eating **your** porridge.
 {{% /blocks/lead %}}
 
-{{% blocks/section color="dark" %}}
+
+
+{{% blocks/section color="dark" type="row" %}}
+
 {{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
 The Goldydocs UI now shows chair size metrics by default.
 
@@ -52,7 +57,7 @@ For announcement of latest features etc.
 
 
 
-{{% blocks/section %}}
+{{% blocks/section type="row" %}}
 {{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
 Get the Goldydocs app!
 {{% /blocks/feature %}}
@@ -67,8 +72,8 @@ We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributi
 For announcement of latest features etc.
 {{% /blocks/feature %}}
 
-
 {{% /blocks/section %}}
+
 
 {{% blocks/section %}}
 
