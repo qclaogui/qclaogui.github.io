@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://www.example.org/
 title: &title Goldydocs
 description: &desc A Docsy Example Project!
 enableRobotsTXT: true
