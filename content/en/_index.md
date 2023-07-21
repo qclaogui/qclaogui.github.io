@@ -1,10 +1,14 @@
-+++
-title = "Goldydocs"
-linkTitle = "Goldydocs"
+---
+title: "Goldydocs"
+linkTitle: "Goldydocs"
+description: A Docsy Example Project!
 
-+++
+---
 
-{{% blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" %}}
+{{% blocks/cover title="Welcome to Goldydocs" image_anchor="top" height="full" %}}
+{{% param description %}}
+{.display-6}
+
 <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{% relref "/docs" %}}">
 	Learn More <i class="fa-solid fa-circle-right ms-2"></i>
 </a>
