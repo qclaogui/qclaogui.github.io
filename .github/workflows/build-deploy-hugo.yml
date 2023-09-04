@@ -41,7 +41,7 @@ jobs:
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: recursive # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0        # Fetch all history for .GitInfo and .Lastmod
