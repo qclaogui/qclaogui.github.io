@@ -86,7 +86,9 @@ params:
     # taxonomyCloud: ["tags", "categories"]
     # taxonomyCloudTitle: ["Tag Cloud", "Categories"]
     # taxonomyPageHeader: ["tags", "categories"]
-  copyright: The Docsy Authors
+  copyright:
+    authors: "Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
+    from_year: 2018
   privacy_policy: https://policies.google.com/privacy
   # First one is picked as the Twitter card image if not set on page.
   # images = ["images/project-illustration.png"]
@@ -119,8 +121,6 @@ params:
   ui:
     # Set to true to disable breadcrumb navigation.
     breadcrumb_disable: false
-    # Set to true to disable the About link in the site footer
-    footer_about_disable: false
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
     navbar_logo: true
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
@@ -187,7 +187,7 @@ params:
 module:
   hugoVersion:
     extended: true
-    min: "0.121.0"
+    min: 0.121.0
   imports:
     - path: github.com/google/docsy
       disable: false
