@@ -1,3 +1,4 @@
+# https://github.com/google/docsy/blob/main/userguide/hugo.yaml
 baseURL: https://www.example.org/
 title: &title Goldydocs
 description: &desc A Docsy Example Project!
@@ -119,7 +120,7 @@ params:
   # Enable syntax highlighting and copy buttons on code blocks with Prism
   prism_syntax_highlighting: false
   ui:
-    # Set to true to disable breadcrumb navigation.
+    showLightDarkModeMenu: true
     breadcrumb_disable: false
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
     navbar_logo: true
