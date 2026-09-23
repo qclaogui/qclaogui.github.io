@@ -128,13 +128,13 @@ params:
   # The version number for the version of the docs represented in this doc set.
   # Used in the "version-banner" partial to display a version number for the
   # current doc set.
-  version: 0.17.1-dev
+  version: 0.17.1
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
   github_repo: https://github.com/qclaogui/qclaogui.github.io
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/google/docsy
+  github_project_repo: https://github.com/docsy/docsy
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
